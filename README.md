@@ -1,161 +1,61 @@
-# 🎯 A-6 Digital Tools Buying Website
+# 🚀 DigiTools Platform
 
-## 📅 Deadlines
-- 60 Marks: 1st April, 2026 (11:59 PM ⏱️)  
-- 50 Marks: No Deadline for 50 marks.  
-- 30 Marks: Any time after 1st April.  
+A modern and user-friendly digital tools marketplace where users can explore premium tools, purchase products, and manage their cart seamlessly.
 
 ---
 
----
+## 📖 Description
 
-## 🚫 Key Rules
-- Don't ask about mark distribution in the group. We don't provide it.  
-- Don't post assignment feedback after you receive it. If you face any problem or have any complaints then join a support session and discuss it.  
-- Don’t use any lorem ipsum text, rather use relevant and meaningful text content.  
-- You can change the color if you want but remember that it should not be a gobindo color.  
-- Use at least 8 git commits with meaningful messages.  
+**DigiTools Platform** is a responsive web application designed to help users browse and purchase premium digital products with ease.
+The platform provides a smooth shopping experience with product listings, cart management, and an elegant UI built with modern frontend technologies.
+
+This project focuses on **clean UI/UX, responsive design, and dynamic state management**.
 
 ---
 
-## 🧩 Features & Requirements
+## 🛠️ Technologies Used
 
-### 🧭 Navbar
-- Navbar designed according to Figma  
-- Cart icon displayed (initially empty)  
-
----
-
-### 🎯 Banner
-- Banner section includes:
-  - Heading  
-  - Description text  
-  - Image  
-  - Buttons  
+* **React.js**
+* **Tailwind CSS**
+* **JavaScript / JSX**
+* **React Hooks (`useState`, `useEffect`)**
+* **React Toastify**
+* **JSON Data Fetching**
+* **React Icons**
 
 ---
 
-### 📊 Stats Section
-- Stats section designed based on Figma  
+## ✨ Key Features
+
+### 1. 🛒 Dynamic Cart Management
+
+Users can add products to the cart, remove items, and view purchased tools instantly with real-time UI updates.
+
+### 2. 🔄 Toggle-Based Product & Cart View
+
+A smooth toggle system allows users to switch between **Products** and **Cart** sections effortlessly.
+
+### 3. 🔔 Smart Toast Notifications
+
+Beautiful success and delete notifications using **React Toastify** for better user experience.
 
 ---
 
-### 🔄 Main Section & Toggling
-- Design  2 buttons at the center of the section.
-- By clicking Cart,  the cart section will be shown. By default it will show an empty message.
-- By Clicking  Product,  the Products section will be shown. 
-- By Default product section will be visible. 
+## 🎯 Future Improvements
 
-
----
-
-### 📦 JSON Data
-Create 6–10 product data with:
-- id  
-- name  
-- description  
-- price  
-- period (one-time / monthly / yearly)  
-- tag ( example- popular, new, best seller) 
-- tagType ( example- popular, new, best seller) 
-- features ( array. Example:  ["100+ templates", "ATS optimization", "Export to PDF"] )   
-- icon  
-
-🚩 You can take help of AI Systems for generating a JSON Data
+* User authentication
+* Payment gateway integration
+* Product search and filtering
+* Wishlist feature
 
 ---
 
-### 🃏 Product Cards
-- Display all products in a 3-column layout  
-- Each card includes:
-  - Name  
-  - Description  
-  - Price  
-  - Period  
-  - TagType  
-  - Features  
-  - Icon  
-  - Buy Now button  
+## 📸 Preview
+
+> A modern digital marketplace UI with clean cards, responsive layout, and smooth interactions.
 
 ---
 
-### 🛒 Cart Functionality
-- Show selected products in cart  
-- Display total product count in navbar  
-- Cart layout: 1 column  
-- Each cart item includes:
-  - Name  
-  - Icon  
-  - Price  
-  - Remove button  
-- "Proceed to Checkout" button:
-  - Clears all cart items  
+## 👨‍💻 Author
 
----
-
-### 🪜 Steps Section
-- Designed according to Figma  
-
----
-
-### 💰 Pricing Section
-- Designed according to Figma  
-
----
-
-### 🦶 Footer
-- Footer designed based on Figma  
-
----
-
-### 📱 Responsive Design
-- Fully responsive across devices  
-- Follow standard responsive practices  
-
----
-
-# 🚀 Challenges Part 
-
-### 🔔 Use a NPM Package React-Toastify
-- Use react toastify to show all the alerts of add to cart, remove, and proceed to checkout. 
-
-
----
-
-### ❌ Implement Selected product remove functionality 
-- On Click Remove Button product will remove from cart section.
-
-- In this section the total of the selected products ( added on the carts) will show here. 
-- Proceed to checkout button will remove all the products from the cart  
-
-
-
----
-
-### 📂 GitHub Repository
-- Create Beautiful Github Readme with following description
-    - Name of your  Project
-    - A little Description
-    - Technology that you use
-    - 3 Features about your project. 
- 
-
----
-## Optional Features: 
-
-1. When you click on a product it increases the cart count in the Navbar and clears it when you click on the proceed to checkout button. 
-2. When clicking on the Buy now Button it shows an “Added to cart” message on the button. 
-
-
-## ⚙️ Technologies Used
-- React.js  
-- Tailwind CSS, DaisyUI 
-- JavaScript (ES6+)  
-- React-Toastify (NPM Package)  
-- JSON (for product data)  
-
----
-
-## 📤 What to submit:
-- GitHub Repository Link:
-- Live Site Link:
+Developed with ❤️ by **Rakibul Molla**
