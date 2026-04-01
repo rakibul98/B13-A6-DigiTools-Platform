@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "name": "AI Resume Builder",
+    "description": "Create professional resumes with AI assistance.",
+    "price": 499,
+    "period": "one-time",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": ["100+ templates", "ATS optimization", "Export to PDF"],
+    "icon": "https://i.ibb.co.com/kg7tBtVJ/writing-2327400-1.png"
+  },
+  {
+    "id": 2,
+    "name": "Social Media Kit",
+    "description": "Ready-to-use templates for all social platforms.",
+    "price": 299,
+    "period": "one-time",
+    "tag": "Best Seller",
+    "tagType": "best-seller",
+    "features": ["500+ templates", "Editable Canva files", "HD quality"],
+    "icon": "https://i.ibb.co.com/dsd3fXSt/design-tool.png"
+  },
+  {
+    "id": 3,
+    "name": "Portfolio Website Builder",
+    "description": "Build stunning personal portfolio websites easily.",
+    "price": 199,
+    "period": "monthly",
+    "tag": "New",
+    "tagType": "new",
+    "features": ["Drag & drop builder", "Custom domain", "SEO optimized"],
+    "icon": "https://i.ibb.co.com/TM17fV87/camera-8775444-1.png"
+  },
+  {
+    "id": 4,
+    "name": "Freelancer Toolkit",
+    "description": "All-in-one toolkit for freelancers to manage work.",
+    "price": 799,
+    "period": "yearly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": ["Invoice generator", "Proposal templates", "Client tracker"],
+    "icon": "https://i.ibb.co.com/67VznZGz/operation.png"
+  },
+  {
+    "id": 5,
+    "name": "UI Design System",
+    "description": "Complete UI kit for modern app design.",
+    "price": 599,
+    "period": "one-time",
+    "tag": "Best Seller",
+    "tagType": "best-seller",
+    "features": ["Figma components", "Dark & light mode", "Auto layout"],
+    "icon": "https://i.ibb.co.com/B5nYYfcB/portfolio.png"
+  },
+  {
+    "id": 6,
+    "name": "Content Planner Pro",
+    "description": "Plan and organize your content strategy efficiently.",
+    "price": 149,
+    "period": "monthly",
+    "tag": "New",
+    "tagType": "new",
+    "features": ["Calendar view", "Team collaboration", "Analytics tracking"],
+    "icon": "https://i.ibb.co.com/N6WgGsG6/social-media.png"
+  }
+]
