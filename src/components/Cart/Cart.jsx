@@ -11,7 +11,7 @@ const Cart = ({ cartItems , setCartItems }) => {
     }
 
     const handleCheckout = () => {
-        alert('Checkout successful!');
+        toast.success("Checkout successful!");
         setCartItems([]);
     }
     
