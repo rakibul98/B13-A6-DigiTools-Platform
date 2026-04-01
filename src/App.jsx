@@ -28,7 +28,7 @@ function App() {
   console.log(cartItems);
   return (
     <>
-      <Navbar cartItems ={cartItems}></Navbar>
+      <Navbar cartItems={cartItems}></Navbar>
       <Banner></Banner>
       <StatSection />
       <Premium></Premium>
@@ -64,23 +64,23 @@ function App() {
         />
       </div>
       <Suspense fallback={<div>Loading...</div>}>
-      {activeTab === "products" &&
-        <Cards CardData={CardData} cartItems ={cartItems} setCartItems={setCartItems} />
-      }
+        {activeTab === "products" &&
+          <Cards CardData={CardData} cartItems={cartItems} setCartItems={setCartItems} />
+        }
       </Suspense>
-            {activeTab === "cart" && <Cart cartItems={cartItems} setCartItems={setCartItems}/>}
+      {activeTab === "cart" && <Cart cartItems={cartItems} setCartItems={setCartItems} />}
 
       <Steps></Steps>
       <Pricing></Pricing>
       <ReadyTransform></ReadyTransform>
-          <Footer />
-<ToastContainer
-  position="top-center"
-  autoClose={1000}
-  hideProgressBar={false}
-  closeOnClick
-  pauseOnHover
-/>
+      <Footer />
+      <ToastContainer
+        position="top-center"
+        autoClose={1000}
+        hideProgressBar={false}
+        closeOnClick
+        pauseOnHover
+      />
     </>
   )
 };
